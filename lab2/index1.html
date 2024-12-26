@@ -1,40 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML with Style</title>
-</head>
-<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #ffffff;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qingque</title>
+    <style>
+      body {
+        font-family: Cormorant-Garamond, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        color: #e100ff;
+      }
+      h1 {
+        color: #cc00ff;
+        text-align: center;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      .section {
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 800px;
+        background-color: #ffffff;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      a {
+        color: #ea00ff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+      }
+      .comment {
+        font-style: italic;
+        color: #d400ff;
+      }
+    </style>
+  </head>
 
-    <!-- Header Section -->
-    <h1 style="color: #ff00ea; text-align: center; margin-top: 20px;">
-       yo!
-    </h1>
+  <body>
+    <div id="section-image" class="section">
+        <h1>Mitachan!!</h1>
+        <img
+          src="https://media1.tenor.com/m/pwGKoyFrqk8AAAAd/mita-miside.gif"
+          alt="kawaii!!"
+        />
+      </div>
 
-    <!-- Paragraph Text with Style -->
-    <p style="color: #ff00bf; font-size: 16px; line-height: 1.5; text-align: center; margin: 20px;">
-        Nahhhhhh <b>𖤐</b>
-    </p>
-
-    <!-- Image Section -->
-    <div style="text-align: center; margin: 20px;">
-        <img src="https://media.tenor.com/Dcvj3O6rLc4AAAAM/maomao-hearts-excited-wakuwaku.gif" alt="Sample Image" 
-             style="width: 300px; height: auto; border: 3px solid #ff00dd; border-radius: 10px; box-shadow: 0 4px 8px rgb(255, 255, 255);">
+    <div id="section-heading" class="section">
+      <h1>Mita</h1>
+      <p class="comment">
+        <u> Mita 1 </u>
+      </p>
+      <h2>Mita 2</h2>
+      <h3>Mita 3</h3>
+      <h4>Mita 4</h4>
+      <h5>Mita 5</h5>
+      <h6>Mita 6</h6>
     </div>
 
-    <!-- Link Section -->
-    <div style="text-align: center; margin: 20px;">
-        <a href="https://www.youtube.com/watch?v=SPSAINV-yyQ&list=PLAA0mdduOu9i5eUNUH6hOFyYLqTzi7lgw" 
-           style="text-decoration: none; color: rgb(255, 0, 221); background-color: #fcfcfc; padding: 10px 20px; border-radius: 5px; display: inline-block;">
-           Treasure
-        </a>
+    <div class="section">
+      <h1>Paragraph</h1>
+      <p>"Tags &lt;p&gt; in HTML."</p>
     </div>
 
-    <!-- Footer -->
-    <footer style="text-align: center; padding: 10px; background-color: #ff0000; color: rgb(255, 0, 221); position: fixed; bottom: 0; width: 100%;">
-        © 2024 My Styled HTML Page
-    </footer>
+    <div class="section">
+      <h1>Basic text formatting</h1>
+      <p><strong>Bold text (Bold)</strong></p>
+      <p><em>Italicized text (Italic)</em></p>
+      <p><u>Underlined text (Underline)</u></p>
+      <p>Containing text <mark>TBA</mark></p>
+    </div>
 
+    <div class="section">
+      <h1>Hyperlink</h1>
+      <p>
+        kawaii:
+        <a
+          href="https://www.youtube.com/watch?v=UaVRqK4rJAI"
+          target="_blank"
+          >wawa</a
+        >
+      </p>
+      <p>
+        Links HTML: 
+        <a href="#section-image">go to Mita!!</a>,
+        <a href="#section-heading">go to Mita 1 ?</a>
+      </p>
+    </div>
+
+  </body>
+</html>
 </body>
 </html>
