@@ -38,17 +38,6 @@ header h1 {
     justify-content: space-around;
     padding: 20px;
 }
-
-.moods div,
-.neighbors div {
-    flex: 1;
-    margin: 0 10px;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid #003366;
-    border-radius: 5px;
-}
-
 a {
     color: #003366;
     text-decoration: none;
