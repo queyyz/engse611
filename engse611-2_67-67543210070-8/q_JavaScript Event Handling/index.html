@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>JavaScript Event Handling</h1>
+        <p class="subtitle">imagination</p>
+    </header>
+
+    <div class="gallery">
+
+        <img id="main-image" class="main-image" src="https://picsum.photos/500/300" alt="Main Image">
+        
+        <div class="thumbnails">
+            <img class="thumbnail" src="https://picsum.photos/id/237/500/300" alt="Thumbnail 1" onclick="changeImage(this)">
+            <img class="thumbnail" src="https://picsum.photos/id/870/500/300" alt="Thumbnail 2" onclick="changeImage(this)">
+            <img class="thumbnail" src="https://picsum.photos/500/300" alt="Thumbnail 3" onclick="changeImage(this)">
+            <img class="thumbnail" src="https://picsum.photos/500/300/" alt="Thumbnail 4" onclick="changeImage(this)">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
